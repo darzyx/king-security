@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Menu } from "semantic-ui-react";
 
 import brandLogo from "./media/logo.png";
@@ -21,11 +22,13 @@ export default class Navbar extends Component {
 
     return (
       <Menu inverted stackable style={menuStyleObj}>
-        <Menu.Item>
+        <Menu.Item as={Link} to="/">
           <img alt="Brand Logo" src={brandLogo} />
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
+            as={Link}
+            to="/"
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
@@ -33,6 +36,8 @@ export default class Navbar extends Component {
             Home
           </Menu.Item>
           <Menu.Item
+            as={Link}
+            to="/about"
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
@@ -40,6 +45,8 @@ export default class Navbar extends Component {
             About
           </Menu.Item>
           <Menu.Item
+            as={Link}
+            to="/services"
             name="services"
             active={activeItem === "services"}
             onClick={this.handleItemClick}
@@ -47,6 +54,8 @@ export default class Navbar extends Component {
             Services
           </Menu.Item>
           <Menu.Item
+            as={Link}
+            to="/gallery"
             name="gallery"
             active={activeItem === "gallery"}
             onClick={this.handleItemClick}
@@ -54,6 +63,8 @@ export default class Navbar extends Component {
             Gallery
           </Menu.Item>
           <Menu.Item
+            as={Link}
+            to="/contact"
             name="contact"
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
