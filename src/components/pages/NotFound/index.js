@@ -13,7 +13,7 @@ export default class NotFound extends Component {
     return (
       <Page>
         <h1>Page Not Found</h1>
-        <Divider hidden />
+        <Divider inverted />
         <Image />
       </Page>
     );

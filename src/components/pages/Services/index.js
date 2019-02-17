@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Placeholder } from "semantic-ui-react";
+import { Divider, Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
 
@@ -12,6 +12,7 @@ export default class Services extends Component {
     return (
       <Page>
         <h1>Services</h1>
+        <Divider inverted />
         <Placeholder fluid inverted>
           <Placeholder.Header image>
             <Placeholder.Line />

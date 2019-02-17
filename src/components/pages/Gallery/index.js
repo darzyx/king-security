@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Placeholder } from "semantic-ui-react";
+import { Card, Divider, Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
 
@@ -12,6 +12,7 @@ export default class Gallery extends Component {
     return (
       <Page>
         <h1>Gallery</h1>
+        <Divider inverted />
         <Card.Group itemsPerRow={3}>
           <Card>
             <Card.Content>
