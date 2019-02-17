@@ -5,15 +5,9 @@ const Video = styled.video.attrs({
   loop: true,
   muted: true
 })`
-  float: right;
-  width: 100vw;
-  height: auto;
+  width: 100%;
   margin: 0;
   padding: 0;
-
-  @media screen and (min-width: 768px) {
-    width: 50vw;
-  }
 `;
 
 export default Video;
