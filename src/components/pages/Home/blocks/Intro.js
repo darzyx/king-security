@@ -9,14 +9,9 @@ const Intro = styled.div`
   width: 100%;
   margin: 0;
   padding: 20px;
-  background-color: #1b1c1d;
 
   h1 {
     text-transform: uppercase;
-  }
-
-  p {
-    font-size: 16px;
   }
 `;
 

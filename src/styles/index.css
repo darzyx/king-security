@@ -2,3 +2,7 @@ html, body {
     color: #EFEFEF;
     background-color: #000;
 }
+
+p {
+    font-size: 16px;
+}

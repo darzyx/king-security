@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Page from "./blocks";
+import ContactForm from "./ContactForm";
 
 export default class Contact extends Component {
   componentDidMount() {
@@ -11,6 +12,7 @@ export default class Contact extends Component {
     return (
       <Page>
         <h1>Contact</h1>
+        <ContactForm />
       </Page>
     );
   }
