@@ -18,8 +18,8 @@ export default class Contact extends Component {
           <Icon name="mail" />
           <Message.Content>
             <Message.Header>Get in touch</Message.Header>
-            You can contact me by using this form or by call/text at (###)
-            ###-####, or by directly emailing me at myemail@example.com
+            Contact me by using this form, or by call/text at (###) ###-####, or
+            by directly emailing me at myemail@example.com
           </Message.Content>
         </Message>
         <ContactForm />
