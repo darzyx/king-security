@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import Routes from "./Routes";
-import Navbar from "./Navbar";
-import LogoVideo from "./LogoVideo";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
@@ -11,7 +10,6 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar />
-          <LogoVideo />
           <Routes />
         </div>
       </BrowserRouter>

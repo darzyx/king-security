@@ -1,55 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
-class Home extends Component {
-  componentDidMount() {
-    document.title = "King Security | Home";
-  }
-
-  render() {
-    return <h1>Home</h1>;
-  }
-}
-
-class About extends Component {
-  componentDidMount() {
-    document.title = "King Security | About";
-  }
-
-  render() {
-    return <h1>About</h1>;
-  }
-}
-
-class Services extends Component {
-  componentDidMount() {
-    document.title = "King Security | Services";
-  }
-
-  render() {
-    return <h1>Services</h1>;
-  }
-}
-
-class Gallery extends Component {
-  componentDidMount() {
-    document.title = "King Security | Gallery";
-  }
-
-  render() {
-    return <h1>Gallery</h1>;
-  }
-}
-
-class Contact extends Component {
-  componentDidMount() {
-    document.title = "King Security | Contact";
-  }
-
-  render() {
-    return <h1>Contact</h1>;
-  }
-}
+import { Home, About, Services, Gallery, Contact } from "./components/pages";
 
 export default class Routes extends Component {
   render() {

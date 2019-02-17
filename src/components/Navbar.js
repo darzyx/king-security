@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu } from "semantic-ui-react";
 
-import brandLogo from "./media/favicon.png";
+import brandLogo from "../media/favicon.png";
 
 const menuStyleObj = {
   borderRadius: "0",
@@ -22,12 +22,13 @@ export default class Navbar extends Component {
 
     return (
       <Menu inverted stackable style={menuStyleObj}>
-        <Menu.Item as={Link} to="/">
+        <Menu.Item as={Link} name="home" onClick={this.handleItemClick} to="/">
           <img alt="Brand Logo" src={brandLogo} />
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
-            as={Link}
+            as={NavLink}
+            exact
             to="/"
             name="home"
             active={activeItem === "home"}
@@ -36,7 +37,7 @@ export default class Navbar extends Component {
             Home
           </Menu.Item>
           <Menu.Item
-            as={Link}
+            as={NavLink}
             to="/about"
             name="about"
             active={activeItem === "about"}
@@ -45,7 +46,7 @@ export default class Navbar extends Component {
             About
           </Menu.Item>
           <Menu.Item
-            as={Link}
+            as={NavLink}
             to="/services"
             name="services"
             active={activeItem === "services"}
@@ -54,7 +55,7 @@ export default class Navbar extends Component {
             Services
           </Menu.Item>
           <Menu.Item
-            as={Link}
+            as={NavLink}
             to="/gallery"
             name="gallery"
             active={activeItem === "gallery"}
@@ -63,7 +64,7 @@ export default class Navbar extends Component {
             Gallery
           </Menu.Item>
           <Menu.Item
-            as={Link}
+            as={NavLink}
             to="/contact"
             name="contact"
             active={activeItem === "contact"}
