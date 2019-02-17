@@ -11,6 +11,7 @@ class App extends Component {
         <Container>
           <Divider hidden />
           <Routes />
+          <Divider hidden />
         </Container>
       </div>
     );
