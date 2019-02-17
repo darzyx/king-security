@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Divider } from "semantic-ui-react";
+
 import Routes from "./Routes";
 import Navbar from "./components/Navbar";
+import Camera from "./Camera";
 
 class App extends Component {
   render() {
@@ -11,7 +13,8 @@ class App extends Component {
         <Container>
           <Divider hidden />
           <Routes />
-          <Divider hidden />
+          <Divider inverted />
+          <Camera />
         </Container>
       </div>
     );
