@@ -12,7 +12,9 @@ export default class Services extends Component {
     return (
       <Page>
         <h1>Services</h1>
-        <Divider inverted />
+        <Divider horizontal inverted>
+          ♔
+        </Divider>
         <Placeholder fluid inverted>
           <Placeholder.Header image>
             <Placeholder.Line />
