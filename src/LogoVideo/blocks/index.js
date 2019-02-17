@@ -5,6 +5,7 @@ import Source from "./Source";
 
 const VideoBlock = styled.video.attrs({
   autoPlay: true,
+  loop: true,
   muted: true
 })`
   float: right;
