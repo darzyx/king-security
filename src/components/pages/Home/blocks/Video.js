@@ -1,9 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
-import Source from "./Source";
-
-const VideoBlock = styled.video.attrs({
+const Video = styled.video.attrs({
   autoPlay: true,
   loop: true,
   muted: true
@@ -18,9 +15,5 @@ const VideoBlock = styled.video.attrs({
     width: 50vw;
   }
 `;
-
-const Video = props => <VideoBlock {...props} />;
-
-Video.Source = Source;
 
 export default Video;
