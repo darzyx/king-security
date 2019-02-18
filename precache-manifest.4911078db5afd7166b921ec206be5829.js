@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/king-security/static/js/main.8f711436.chunk.js"
   },
   {
+    "revision": "962a1bf31c081691065fe333d9fa8105",
+    "url": "/king-security/static/media/icons.962a1bf3.svg"
+  },
+  {
     "revision": "cd6c777f1945164224dee082abaea03a",
     "url": "/king-security/static/media/outline-icons.cd6c777f.woff2"
   },
@@ -72,20 +76,16 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/brand-icons.13db00b7.eot"
   },
   {
+    "revision": "e8c322de9658cbeb8a774b6624167c2c",
+    "url": "/king-security/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
     "revision": "a046592bac8f2fd96e994733faf3858c",
     "url": "/king-security/static/media/brand-icons.a046592b.woff"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/king-security/static/media/brand-icons.c5ebe0b3.ttf"
-  },
-  {
-    "revision": "e8c322de9658cbeb8a774b6624167c2c",
-    "url": "/king-security/static/media/brand-icons.e8c322de.woff2"
-  },
-  {
-    "revision": "962a1bf31c081691065fe333d9fa8105",
-    "url": "/king-security/static/media/icons.962a1bf3.svg"
   },
   {
     "revision": "1a6a0c43ad9383471f40",
