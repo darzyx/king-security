@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/outline-icons.701ae6ab.eot"
   },
   {
-    "revision": "552b15cef7f3e7c861a6",
+    "revision": "457b8bc44e3b3e175049",
     "url": "/king-security/static/css/main.222360b2.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "552b15cef7f3e7c861a6",
-    "url": "/king-security/static/js/main.552b15ce.chunk.js"
+    "revision": "457b8bc44e3b3e175049",
+    "url": "/king-security/static/js/main.457b8bc4.chunk.js"
   },
   {
     "revision": "cd6c777f1945164224dee082abaea03a",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/outline-icons.82f60bd0.svg"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/king-security/static/media/brand-icons.13db00b7.eot"
-  },
-  {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/king-security/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/king-security/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "a046592bac8f2fd96e994733faf3858c",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/king-security/static/css/2.18ca43a1.chunk.css"
   },
   {
-    "revision": "cc40b1a2de0bcddf9adebe301f5e15db",
+    "revision": "65a8c378ad5ac5f675d630fd3d51eac0",
     "url": "/king-security/index.html"
   }
 ];
