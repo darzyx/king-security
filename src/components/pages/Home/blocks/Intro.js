@@ -13,6 +13,14 @@ const Intro = styled.div`
   h1 {
     text-transform: uppercase;
   }
+
+  p {
+    span {
+      margin: 0 3px;
+      color: goldenrod;
+      font-size: 24px;
+    }
+  }
 `;
 
 export default Intro;

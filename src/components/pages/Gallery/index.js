@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Divider, Placeholder } from "semantic-ui-react";
+import { Divider, Grid, Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
 
@@ -11,47 +11,42 @@ export default class Gallery extends Component {
   render() {
     return (
       <Page>
-        <h1>Gallery</h1>
+        <h2>Gallery</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>
-        <Card.Group itemsPerRow={3}>
-          <Card>
-            <Card.Content>
-              <Placeholder inverted>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            </Card.Content>
-          </Card>
-          <Card>
-            <Card.Content>
-              <Placeholder inverted>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            </Card.Content>
-          </Card>
-          <Card>
-            <Card.Content>
-              <Placeholder inverted>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            </Card.Content>
-          </Card>
-          <Card>
-            <Card.Content>
-              <Placeholder inverted>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            </Card.Content>
-          </Card>
-          <Card>
-            <Card.Content>
-              <Placeholder inverted>
-                <Placeholder.Image rectangular />
-              </Placeholder>
-            </Card.Content>
-          </Card>
-        </Card.Group>
+        <Grid container columns={3}>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+          <Grid.Column>
+            <Placeholder inverted>
+              <Placeholder.Image rectangular />
+            </Placeholder>
+          </Grid.Column>
+        </Grid>
       </Page>
     );
   }

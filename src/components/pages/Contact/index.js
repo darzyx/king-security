@@ -23,7 +23,7 @@ export default class Contact extends Component {
 
     return (
       <Page>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>

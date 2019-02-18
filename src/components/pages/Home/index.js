@@ -18,9 +18,10 @@ export default class Home extends Component {
           <Page.Intro>
             <h1>KING SECURITY</h1>
             <p>
-              Setup Video Surveillance • Residential • Small Business • 24 Hour
-              Security Guard • Monitor Video Surveillance • Private Security
-              Guard
+              Setup Video Surveillance <span>•</span> Residential <span>•</span>{" "}
+              Small Business <span>•</span> 24 Hour Security Guard{" "}
+              <span>•</span> Monitor Video Surveillance <span>•</span> Private
+              Security Guard
             </p>
           </Page.Intro>
         </Page.Banner>
