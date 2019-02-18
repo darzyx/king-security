@@ -1,15 +1,26 @@
 import React, { Component } from "react";
-import { Divider, Icon, Message } from "semantic-ui-react";
+import { Divider, Icon, Message, Transition } from "semantic-ui-react";
 
 import Page from "./blocks";
 import ContactForm from "./ContactForm";
 
 export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { visible: true };
+  }
+
   componentDidMount() {
     document.title = "King Security | Contact";
+
+    setInterval(() => {
+      this.setState(state => ({ visible: !state.visible }));
+    }, 5000);
   }
 
   render() {
+    const { visible } = this.state;
+
     return (
       <Page>
         <h1>Contact</h1>
@@ -17,7 +28,9 @@ export default class Contact extends Component {
           ♔
         </Divider>
         <Message color="yellow" icon>
-          <Icon name="mail" />
+          <Transition animation="tada" duration={1000} visible={visible}>
+            <Icon name="mail" />
+          </Transition>
           <Message.Content>
             <Message.Header>
               Get in touch to discuss details, get an estimate, or book an
