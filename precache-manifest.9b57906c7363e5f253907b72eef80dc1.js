@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/king-security/static/media/outline-icons.701ae6ab.eot"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/king-security/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "457b8bc44e3b3e175049",
+    "revision": "7fd1b2c61a30d685f918",
     "url": "/king-security/static/css/main.222360b2.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "9035845a91c0ef0aebb5",
-    "url": "/king-security/static/js/2.9035845a.chunk.js"
+    "revision": "76f798d5a63cd6839336",
+    "url": "/king-security/static/js/2.76f798d5.chunk.js"
   },
   {
     "revision": "57199fc644e609e9a020e524287b2166",
     "url": "/king-security/static/media/logo.57199fc6.mp4"
+  },
+  {
+    "revision": "298dfaa6a109233016a417e97b693ed9",
+    "url": "/king-security/static/media/camera_views.298dfaa6.png"
   },
   {
     "revision": "a3d535bfea5e9548447ad4f29632e696",
@@ -32,24 +36,20 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/king-security/static/media/icons.8e3c7f55.eot"
-  },
-  {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
     "url": "/king-security/static/media/icons.0ab54153.woff2"
+  },
+  {
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/king-security/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/king-security/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/king-security/static/media/icons.b87b9ba5.ttf"
-  },
-  {
-    "revision": "457b8bc44e3b3e175049",
-    "url": "/king-security/static/js/main.457b8bc4.chunk.js"
+    "revision": "7fd1b2c61a30d685f918",
+    "url": "/king-security/static/js/main.7fd1b2c6.chunk.js"
   },
   {
     "revision": "cd6c777f1945164224dee082abaea03a",
@@ -60,24 +60,28 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/outline-icons.ef60a4f6.woff"
   },
   {
+    "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
+    "url": "/king-security/static/media/outline-icons.82f60bd0.svg"
+  },
+  {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/king-security/static/media/outline-icons.ad97afd3.ttf"
   },
   {
-    "revision": "962a1bf31c081691065fe333d9fa8105",
-    "url": "/king-security/static/media/icons.962a1bf3.svg"
-  },
-  {
-    "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
-    "url": "/king-security/static/media/outline-icons.82f60bd0.svg"
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/king-security/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/king-security/static/media/brand-icons.e8c322de.woff2"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/king-security/static/media/brand-icons.13db00b7.eot"
+    "revision": "962a1bf31c081691065fe333d9fa8105",
+    "url": "/king-security/static/media/icons.962a1bf3.svg"
+  },
+  {
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/king-security/static/media/outline-icons.701ae6ab.eot"
   },
   {
     "revision": "a046592bac8f2fd96e994733faf3858c",
@@ -88,11 +92,11 @@ self.__precacheManifest = [
     "url": "/king-security/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
-    "revision": "9035845a91c0ef0aebb5",
+    "revision": "76f798d5a63cd6839336",
     "url": "/king-security/static/css/2.18ca43a1.chunk.css"
   },
   {
-    "revision": "65a8c378ad5ac5f675d630fd3d51eac0",
+    "revision": "355086bbf8a74148157dec8a67360b2a",
     "url": "/king-security/index.html"
   }
 ];
