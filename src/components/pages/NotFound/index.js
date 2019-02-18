@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Divider } from "semantic-ui-react";
 
 import Page from "./blocks";
+import KingDivider from "../../misc/KingDivider";
 import Image from "./Image";
 
 export default class NotFound extends Component {
@@ -13,9 +14,7 @@ export default class NotFound extends Component {
     return (
       <Page>
         <h2 style={{ textAlign: "center" }}>Page Not Found</h2>
-        <Divider horizontal inverted>
-          ♔
-        </Divider>
+        <KingDivider />
         <Divider hidden />
         <Page.Container>
           <Image />

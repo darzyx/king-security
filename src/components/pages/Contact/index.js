@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Divider, Icon, Message, Transition } from "semantic-ui-react";
+import { Icon, Message, Transition } from "semantic-ui-react";
 
 import Page from "./blocks";
 import ContactForm from "./ContactForm";
+import KingDivider from "../../misc/KingDivider";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -24,9 +25,7 @@ export default class Contact extends Component {
     return (
       <Page>
         <h2 style={{ textAlign: "center" }}>Contact</h2>
-        <Divider horizontal inverted>
-          ♔
-        </Divider>
+        <KingDivider />
         <Message color="yellow" icon>
           <Transition animation="tada" duration={1000} visible={visible}>
             <Icon name="mail" />

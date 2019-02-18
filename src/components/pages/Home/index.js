@@ -3,6 +3,7 @@ import { Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
 import LogoVideo from "./LogoVideo.js";
+import Contact from "./Contact";
 import Reviews from "./Reviews";
 
 export default class Home extends Component {
@@ -38,6 +39,7 @@ export default class Home extends Component {
             <Placeholder.Line />
           </Placeholder.Paragraph>
         </Placeholder>
+        <Contact />
         <Reviews />
         <Placeholder fluid inverted>
           <Placeholder.Paragraph>

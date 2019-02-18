@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Divider, Placeholder } from "semantic-ui-react";
+import { Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
+import KingDivider from "../../misc/KingDivider";
 
 export default class About extends Component {
   componentDidMount() {
@@ -12,9 +13,7 @@ export default class About extends Component {
     return (
       <Page>
         <h2 style={{ textAlign: "center" }}>About</h2>
-        <Divider horizontal inverted>
-          ♔
-        </Divider>
+        <KingDivider />
         <Placeholder fluid inverted>
           <Placeholder.Header image>
             <Placeholder.Line />

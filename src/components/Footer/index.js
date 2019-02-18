@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <Foot>
         <Camera />
-        <p>Copyright © King Security 2019</p>
+        <p>Copyright © King Security 2019. All rights reserved.</p>
       </Foot>
     );
   }
