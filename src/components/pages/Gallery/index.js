@@ -11,7 +11,7 @@ export default class Gallery extends Component {
   render() {
     return (
       <Page>
-        <h2>Gallery</h2>
+        <h2 style={{ textAlign: "center" }}>Gallery</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>

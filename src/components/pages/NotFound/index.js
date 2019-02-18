@@ -12,7 +12,7 @@ export default class NotFound extends Component {
   render() {
     return (
       <Page>
-        <h2>Page Not Found</h2>
+        <h2 style={{ textAlign: "center" }}>Page Not Found</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>

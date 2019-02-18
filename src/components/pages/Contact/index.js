@@ -23,7 +23,7 @@ export default class Contact extends Component {
 
     return (
       <Page>
-        <h2>Contact</h2>
+        <h2 style={{ textAlign: "center" }}>Contact</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>

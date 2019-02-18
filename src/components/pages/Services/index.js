@@ -11,7 +11,7 @@ export default class Services extends Component {
   render() {
     return (
       <Page>
-        <h2>Services</h2>
+        <h2 style={{ textAlign: "center" }}>Services</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>

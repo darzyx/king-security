@@ -12,7 +12,10 @@ class App extends Component {
         <Navbar />
         <Container>
           <Divider hidden />
+          <Divider hidden />
           <Routes />
+          <Divider hidden />
+          <Divider hidden />
           <Divider hidden />
         </Container>
         <Footer />

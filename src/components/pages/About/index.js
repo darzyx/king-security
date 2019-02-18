@@ -11,7 +11,7 @@ export default class About extends Component {
   render() {
     return (
       <Page>
-        <h2>About</h2>
+        <h2 style={{ textAlign: "center" }}>About</h2>
         <Divider horizontal inverted>
           ♔
         </Divider>
