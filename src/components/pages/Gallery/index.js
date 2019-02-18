@@ -12,7 +12,9 @@ export default class Gallery extends Component {
     return (
       <Page>
         <h1>Gallery</h1>
-        <Divider inverted />
+        <Divider horizontal inverted>
+          ♔
+        </Divider>
         <Card.Group itemsPerRow={3}>
           <Card>
             <Card.Content>

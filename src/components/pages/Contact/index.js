@@ -13,13 +13,21 @@ export default class Contact extends Component {
     return (
       <Page>
         <h1>Contact</h1>
-        <Divider inverted />
+        <Divider horizontal inverted>
+          ♔
+        </Divider>
         <Message color="yellow" icon>
           <Icon name="mail" />
           <Message.Content>
-            <Message.Header>Get in touch</Message.Header>
-            Contact me by using this form, or by call/text at (###) ###-####, or
-            by directly emailing me at myemail@example.com
+            <Message.Header>
+              Get in touch to discuss details, get an estimate, or book an
+              appointment.
+            </Message.Header>
+            <p>
+              Phone: (###) ###-####
+              <br />
+              Email: myemail@example.com
+            </p>
           </Message.Content>
         </Message>
         <ContactForm />
