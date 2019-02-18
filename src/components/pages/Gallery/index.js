@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Divider, Grid, Placeholder } from "semantic-ui-react";
+import { Divider, Grid, Image, Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
+import myImg from "../../../media/camera_views.png";
 
 export default class Gallery extends Component {
   componentDidMount() {
@@ -17,9 +18,7 @@ export default class Gallery extends Component {
         </Divider>
         <Grid container columns={3}>
           <Grid.Column>
-            <Placeholder inverted>
-              <Placeholder.Image rectangular />
-            </Placeholder>
+            <Image src={myImg} />
           </Grid.Column>
           <Grid.Column>
             <Placeholder inverted>
