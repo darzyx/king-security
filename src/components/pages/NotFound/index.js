@@ -16,7 +16,10 @@ export default class NotFound extends Component {
         <Divider horizontal inverted>
           ♔
         </Divider>
-        <Image />
+        <Divider hidden />
+        <Page.Container>
+          <Image />
+        </Page.Container>
       </Page>
     );
   }
