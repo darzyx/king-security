@@ -3,9 +3,10 @@ import { Grid, Image, Placeholder } from "semantic-ui-react";
 
 import Page from "./blocks";
 import KingDivider from "../../misc/KingDivider";
-import img1 from "../../../media/camera_views.png";
-import img2 from "../../../media/warning.jpg";
-import img3 from "../../../media/businesscard.jpg";
+import imgCameraViews from "../../../media/camera_views.png";
+import imgWarning from "../../../media/warning.jpg";
+import imgBusinessCard from "../../../media/businesscard.jpg";
+import imgProducts from "../../../media/products.jpg";
 
 export default class Gallery extends Component {
   componentDidMount() {
@@ -19,18 +20,16 @@ export default class Gallery extends Component {
         <KingDivider />
         <Grid container columns={3}>
           <Grid.Column>
-            <Image src={img1} />
+            <Image src={imgBusinessCard} />
           </Grid.Column>
           <Grid.Column>
-            <Image src={img2} />
+            <Image src={imgProducts} />
           </Grid.Column>
           <Grid.Column>
-            <Image src={img3} />
+            <Image src={imgCameraViews} />
           </Grid.Column>
           <Grid.Column>
-            <Placeholder inverted>
-              <Placeholder.Image rectangular />
-            </Placeholder>
+            <Image src={imgWarning} />
           </Grid.Column>
           <Grid.Column>
             <Placeholder inverted>

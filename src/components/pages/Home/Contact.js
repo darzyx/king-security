@@ -23,9 +23,9 @@ const Block = styled(Segment).attrs({
 
 const Contact = () => (
   <Block>
-    <h2>Get an estimate or book an appointment:</h2>
+    <h2>Discuss details, get an estimate, or book an appointment:</h2>
     <p>(412) 682-4171</p>
-    <p>kingspgh412@gmail.com</p>
+    <p>deejgandy@gmail.com</p>
   </Block>
 );
 

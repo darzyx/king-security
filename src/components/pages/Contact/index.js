@@ -36,9 +36,9 @@ export default class Contact extends Component {
               appointment.
             </Message.Header>
             <p>
-              Phone: (###) ###-####
+              Phone: (412) 682-4171
               <br />
-              Email: myemail@example.com
+              Email: deejgandy@gmail.com
             </p>
           </Message.Content>
         </Message>
