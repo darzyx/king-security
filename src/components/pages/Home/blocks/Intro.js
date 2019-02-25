@@ -11,10 +11,14 @@ const Intro = styled.div`
   padding: 20px;
 
   h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 48px;
     text-transform: uppercase;
   }
 
   p {
+    margin-top: 20px;
     span {
       margin: 0 3px;
       color: goldenrod;

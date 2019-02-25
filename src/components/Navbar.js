@@ -12,7 +12,7 @@ const menuStyleObj = {
 export default class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeItem: null };
+    this.state = { activeItem: "home" };
   }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
@@ -21,7 +21,7 @@ export default class Navbar extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu inverted stackable style={menuStyleObj}>
+      <Menu inverted size="tiny" style={menuStyleObj}>
         <Menu.Item as={Link} name="home" onClick={this.handleItemClick} to="/">
           <img alt="Brand Logo" src={brandLogo} />
         </Menu.Item>
@@ -35,15 +35,6 @@ export default class Navbar extends Component {
             onClick={this.handleItemClick}
           >
             Home
-          </Menu.Item>
-          <Menu.Item
-            as={NavLink}
-            to="/about"
-            name="about"
-            active={activeItem === "about"}
-            onClick={this.handleItemClick}
-          >
-            About
           </Menu.Item>
           <Menu.Item
             as={NavLink}

@@ -13,11 +13,17 @@ export default class Contact extends Component {
 
   componentDidMount() {
     document.title = "King Security | Contact";
+    this.myInterval();
+  }
 
+  componentWillUnmount() {
+    clearInterval(this.myInterval());
+  }
+
+  myInterval = () =>
     setInterval(() => {
       this.setState(state => ({ visible: !state.visible }));
     }, 5000);
-  }
 
   render() {
     const { visible } = this.state;
